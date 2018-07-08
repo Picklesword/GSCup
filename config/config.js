@@ -20,7 +20,7 @@ exports.bindaddress = 'http://pokemon-gs-cup-pkmgscup.1d35.starter-us-east-1.ope
 //   server's CPU is capable of multithreading. If you don't know what any of
 //   this means or you are unfamiliar with PS' networking code, leave this set
 //   to 1.
-exports.workers = 1;
+exports.workers = 8;
 
 // wsdeflate - compresses WebSocket messages
 //	 Toggles use of the Sec-WebSocket-Extension permessage-deflate extension.
@@ -256,7 +256,7 @@ exports.customavatars = {
 // ratedtours - toggles tournaments being ladder rated (true) or not (false)
 exports.tourroom = '';
 exports.tourannouncements = [/* roomids */];
-exports.tourdefaultplayercap = 0;
+exports.tourdefaultplayercap = 64;
 exports.ratedtours = false;
 
 // appealurl - specify a URL containing information on how users can appeal
