@@ -989,7 +989,7 @@ let commands = {
 		j: 'join',
 		in: 'join',
 		join: function (tournament, user) {
-			tournament.addUser(user, false, this);
+			tournament.addUser(user, true, this);
 		},
 		l: 'leave',
 		out: 'leave',
