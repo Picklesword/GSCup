@@ -77,7 +77,7 @@ let Formats = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "GS Cup",
+		section: "GS Cup SUN",
 	},
 	{
 		name: "[Gen 7] GS Cup",
@@ -96,7 +96,16 @@ let Formats = [
 		ruleset: ['Pokemon', 'Species Clause', 'Nickname Clause', 'Item Clause', 'Team Preview', 'Cancel Mod'],
 		banlist: [
 			'Illegal', 'Unreleased', 'Mew', 'Celebi', 'Jirachi', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed', 'Phione', 'Manaphy', 'Darkrai',
-			'Shaymin', 'Shaymin-Sky', 'Arceus', 'Victini', 'Keldeo', 'Meloetta', 'Genesect', 'Diancie', 'Hoopa', 'Hoopa-Unbound', 'Volcanion', 'Marshadow', 'Magearna', 'Zeraora', 'Soul Dew',
+			'Shaymin', 'Shaymin-Sky', 'Arceus', 'Victini', 'Keldeo', 'Meloetta', 'Genesect', 'Diancie', 'Hoopa', 'Hoopa-Unbound', 'Volcanion', 'Marshadow', 'Magearna', 'Zeraora', 'Soul Dew', 
+			'Red Orb', 'Blue Orb', 'Dagon Ascent', 'Bugunium Z', 'Darkinium Z', 'Dragonium Z', 'Electrium Z', 'Farium Z', 'Fightinium Z', 'Firium Z', 'Flyinium Z',
+			'Ghostium Z', 'Grassium Z', 'Groundium Z', 'Icium Z', 'Normalium Z', 'Poisonium Z', 'Psychinium Z', 'Rockium Z', 'Steelium Z', 'Waterium Z', 'Aloraichium Z', 'Decidium Z',
+			'Eevium Z', 'Incinium Z', 'Kommonium Z', 'Lunalium Z', 'Lycanium Z', 'Lycanium Z', 'Marshadium Z', 'Mewnium Z', 'Mimikium Z', 'Pikanium Z', 'Pikashunium Z', 'Priumarium Z',
+			'Snorlium Z', 'Solganium Z', 'Tapunium Z', 'Ultranrcrozium Z', 'Abomasite','Absolite', 'Aerodactylite', 'Aggronite', 'Alakazitr', 'Altarianite', 'Ampharosite',
+			'Audinite', 'Banettite', 'Beedrillite', 'Blastoisinite', 'Blazikenite', 'Cameruptite', 'Charizardite Y', 'Charizardite X', 'Diancite', 'Galladite', 'Garchompite', 'Gardevoirite', 
+			'Gengarite', 'Glalitite', 'Gyaradosite', 'Heracronite', 'Houndoominite', 'Kangaskhanite', 'Latiasite', 'Latiosite', 'Lopunnite', 'Lucarionite', 'Manectite', 'Mawilite',
+			'Medichamite', 'Metagrossite', 'Mewtwonite X', 'Mewtwonite Y', 'Pidgeotite', 'Pinsirite', 'Sablenite', 'Salamencite', 'Sceptilite', 'Scizorite', 'Sharpedonite',
+			'Slowbronite', 'Steelixite', 'Swampertite', 'Tyranitarite', 'Venusaurite',
+			
 		],
 		requirePentagon: true,
 		onValidateTeam: function (team) {
