@@ -77,10 +77,10 @@ let Formats = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "GS Cup SUN",
+		section: "VGC 2019",
 	},
 	{
-		name: "[Gen 7] GS Cup",
+		name: "[Gen 7] Sun Series",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3558332/">VGC 2016 Rules</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3580592/">VGC 2016 Viability Rankings</a>`,
